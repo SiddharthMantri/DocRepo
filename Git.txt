@@ -1,0 +1,33 @@
+Init
+git config user.name will display the user name
+git config user.email will display the email id
+
+git config --global user.name "<name>" will set the name
+git config --global user.email "<emailID>" will set the email id
+git init   to create a git repo locally
+
+To get update from the repo & commit
+git pull 	to get the updates from the server
+git commit -m "comments"
+git push origin <branch_name>
+
+Status
+git status -s list of files which were modified within that directory
+git status .  to check for particular changes within folder, navigate to this part and issue this command.
+git log to see the commit histories
+git diff to know the list of changes you made since creating the branch
+
+Add 
+git add <file_name> for adding single file 
+git add . for adding changed files within that directory
+
+Remove
+git rm <filename>
+
+Branch
+git branch  to know the list of branches
+git branch <branch_name> for creating a new branch
+git checkout <branch_name> to toggle to that branch
+git checkout -b <branchname> to create new branches to create a new branch and checkout it at one go.
+git merge <branch name> navigate to the source branch,to merge changes of this directory to the source branch
+git branch -d <branch_name> to delete the branch
