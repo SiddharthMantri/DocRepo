@@ -1,0 +1,65 @@
+
+Utilities
+hostname   will print the host name
+hostname <new name> will make the system temporary to take that name
+uname 	for os name
+uname -a for os related information
+date	tocheck, date & time zone of the terminal box
+ifconfig  to check for the ip address of the system, look for the inet addr: in eth0
+df -h to check for the list of usage of disks
+
+To know the versions of the softwares present in the system
+java -version 
+mvn -version 
+mysql --version
+git --version
+echo $JAVA_HOME to check for whether the java_home is set or not
+
+Navigation
+cd .. to navigate one level up
+cd <foldername>	to switch to the folder	
+cd / to arrive at the root of the particular drive
+
+Files & folders
+ls -all with permissions
+	-l for r/w/x access
+chmod XXX <file/foldername> to change access
+mkdrir <dir_name> to create the name of the folder
+mv <file_oldname> <file_newname> for renaming a file
+rm <filename> for removing the file
+rm -r <folder_name> to remove the folders
+
+Services(eg: mysql,mongodb)
+sh <scriptfile>.sh
+sh <scriptfile>.sh & to run the process as background(the service wont be stopped even if the terminal is closed)
+service <name of service> <start/stop/restart/status>
+pgrep -fl <service> to know the process id of the service.
+ctlr + C to terminate the current action in the terminal
+
+Search
+locate <filename>   
+whereis <filename>
+
+Terminal
+Ctrl + A = Move cursor to beginning of line
+Ctrl + E = Move cursor to end of line
+Ctrl + D = logs you out
+Ctrl + C = kills the current process
+Ctrl + U = deletes the current line
+Ctrl + L = clears the terminal output
+Ctrl+Shift+T = opening a new tab in the terminal(depends on which variant of GNU/LINUX)
+Ctrl+Shift+v = paste it to terminal
+Ctrl+Shift+c= to copy from terminal
+mouse center click-->copy pasting between the content to and fro form the bash
+clear to clear the bash
+
+Ssh
+Before using terminal for ssh,Either place .pem file in user's home directory and connect ssh 
+or navigate to the directory where .pem is there and issue ssh
+
+ssh -i <xxxxx>.pem <user>@<publicDNS>
+
+scp file transfer from server box to box. The file needs to be in the same directory else navigate to that directory.
+scp -i <.pem> <filelocation> <user>@<destinationserver>:<folder location>
+eg:
+scp -i abc.pem abcdump.sql ubuntu@<abc.com>:/home/ubuntu/dump
