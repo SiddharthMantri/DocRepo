@@ -1,0 +1,6 @@
+Ctrl +Pageup/pageDown  to toggle between files in editor
+Ctrl+ O to open method
+Ctrl+ Shift+ R to open resource(files)
+Ctrl+Shift+O to clear unused imports
+Ctrl+F6/Ctrl+E to choose from the list of open files
+

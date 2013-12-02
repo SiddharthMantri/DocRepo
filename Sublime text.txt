@@ -1,0 +1,18 @@
+Crtl+ P to open files
+ctrl+shift+f to find the files which has this keyword within folders
+shift + f11 toggle distraction mode
+alt+shift+<1/2> for column split of the editors
+Ctlr+R (or) ctrl+P and then @ to open the function inside file
+Ctrl+ m to check the ending of the file
+Ctrl+G 	goto line in current file. Same as Ctrl+P, then type :
+Ctrl+KB 	toggle side bar
+Ctrl+PgDn 	cycle down through open tabs, cycle up with Ctrl+PgUp 
+F11			maximized
+Ctrl+F2 	toggle bookmark 
+Ctrl+] 	indent current line(s)
+Ctrl+[ 	un-indent current line(s) 
+Ctrl+L 	select line (repeat to select next lines) 
+
+with emmet plugin , it is 
+ctrl+alt+j for windows
+ctrl+shift+t for mac
