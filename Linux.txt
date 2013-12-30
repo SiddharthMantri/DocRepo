@@ -56,6 +56,8 @@ Ctrl+Shift+c= to copy from terminal
 mouse center click-->copy pasting between the content to and fro form the bash
 clear to clear the bash
 
+Ctrl+  H = to toggle hidden file's visibility.
+
 Ssh
 Before using terminal for ssh,Either place .pem file in user's home directory and connect ssh 
 or navigate to the directory where .pem is there and issue ssh
@@ -66,3 +68,5 @@ scp file transfer from server box to box. The file needs to be in the same direc
 scp -i <.pem> <filelocation> <user>@<destinationserver>:<folder location>
 eg:
 scp -i abc.pem abcdump.sql ubuntu@<abc.com>:/home/ubuntu/dump
+
+Alt+HOME  = for navigating directly to the home folder of the logged in user.

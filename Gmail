@@ -1,5 +1,9 @@
 Enable Gmail shortcut
 
-x - to select a conversation
-# to delete the conversation
-arrows to navigate the list of emails.
+x		 to select a conversation
+#                to delete the conversation
+arrows 	         to navigate the list of emails.
+` 	         to move forward in gmail's new tabbed inbox
+~                to move backward in gmail's new tabbed inbox   
+u		 returns you back to inbox
+l 	         opens label menu.
