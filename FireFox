@@ -1,0 +1,5 @@
+Ctrl+ T         To open a new terminal
+Ctrl+Shift+ T   open the tab which you have just closed
+Ctrl+Tab        toggle between open tabs in forward direction
+ctrl+Shift+Tab	toggle between open tabs in reverse direction
+Alt+Tab number  for opening the corresponding tabs directly
