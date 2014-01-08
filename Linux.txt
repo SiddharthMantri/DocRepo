@@ -69,4 +69,8 @@ scp -i <.pem> <filelocation> <user>@<destinationserver>:<folder location>
 eg:
 scp -i abc.pem abcdump.sql ubuntu@<abc.com>:/home/ubuntu/dump
 
+FileSystem
+Alt+Tab number  to switch to that tab.
+Ctrl+Pageup     to switch to the next tab in forward direction
+Ctrl+PageDown	to switch to the next tab in backward direction 
 Alt+HOME  = for navigating directly to the home folder of the logged in user.

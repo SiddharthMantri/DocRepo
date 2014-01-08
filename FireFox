@@ -2,4 +2,9 @@ Ctrl+ T         To open a new terminal
 Ctrl+Shift+ T   open the tab which you have just closed
 Ctrl+Tab        toggle between open tabs in forward direction
 ctrl+Shift+Tab	toggle between open tabs in reverse direction
-Alt+Tab number  for opening the corresponding tabs directly
+Alt + <-        to navigate back to earlier page in backward direction.
+Alt + ->        to navigate to the page in forward direction. 
+Ctrl+W	        to close the current tab
+Alt+Tab number  to switch to that tab.
+Ctrl+Pageup     to switch to the next tab in forward direction
+Ctrl+PageDown	to switch to the next tab in backward direction 
