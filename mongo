@@ -1,0 +1,30 @@
+root>mongo  --> to login into the shell
+
+show dbs --> to show all the dbs available in this installation
+
+show dbs
+
+use <db>  -->for selecting db
+
+show collections --> to show all the list of the collections(analogyes to table in rdbms) in this database.
+
+db.<collection>.count() --> to know the list of records available.
+
+db.<collection>.find() --> to list all the records of that collections
+
+it --> to iterate over the result in shell.
+
+db.<collection>.find({<field>:<value>}) --> to find the items which match to a particular criteria
+
+db.<collection>.remove(); -->removes all the items from collection.
+
+
+
+
+
+
+
+
+
+
+
