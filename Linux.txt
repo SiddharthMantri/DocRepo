@@ -22,7 +22,14 @@ cd / to arrive at the root of the particular drive
 
 Files & folders
 ls -all with permissions
-	-l for r/w/x access
+  -l        for r/w/x access
+  -a        list hidden files(all)
+  -h        print sizes in human readable format (e.g., 1K 234M 2G)
+  -s        print size of each file, in blocks	 
+  -d */     for directory listing.*/ is a pattern that matches all of the subdirectories in the current directory (* would match all files and 		    subdirectories; the / restricts it to directories).
+
+
+
 chmod XXX <file/foldername> to change access
 mkdrir <dir_name> to create the name of the folder
 mv <file_oldname> <file_newname> for renaming a file
