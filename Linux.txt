@@ -69,6 +69,30 @@ scp -i <.pem> <filelocation> <user>@<destinationserver>:<folder location>
 eg:
 scp -i abc.pem abcdump.sql ubuntu@<abc.com>:/home/ubuntu/dump
 
+Compressing
+tar -zcvf {.tgz-file} {files}
+tar -jcvf {.tbz2-file} {files}	
+
+The GNU tar is archiving utility but it can be use to compressing large file(s). GNU tar supports both archive compressing through gzip and bzip2. If you have more than 2 files then it is recommended to use tar instead of gzip or bzip2.
+-z: use gzip compress
+-j: use bzip2 compress
+
+tar -zcvf data.tgz *.doc
+tar -zcvf pics.tar.gz *.jpg *.png
+tar -jcvf data.tbz2 *.doc
+ls -l
+
+Decompressing
+tar -zxvf {.tgz-file}
+tar -jxvf {.tbz2-file}
+
+Untar or decompressed a file(s) that is created using tar compressing through gzip and bzip2 filter
+
+tar -zxvf data.tgz 
+tar -zxvf pics.tar.gz *.jpg
+tar -jxvf data.tbz2
+
+
 FileSystem
 Alt+Tab number  to switch to that tab.
 Ctrl+Pageup     to switch to the next tab in forward direction
