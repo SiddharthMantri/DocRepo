@@ -30,7 +30,13 @@ ls -all with permissions
 
 
 
-chmod XXX <file/foldername> to change access
+chmod <XXX> <file/foldername> to change access
+
+xxx- Permissions
+<file/folder> - * here, changes the permission of all files & folder in the tree.
+-R option to do it recursively for all the subfolders and file in the tree.
+
+
 mkdrir <dir_name> to create the name of the folder
 mv <file_oldname> <file_newname> for renaming a file
 rm <filename> for removing the file
