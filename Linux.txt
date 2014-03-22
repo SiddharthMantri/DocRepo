@@ -124,3 +124,8 @@ eg:
 
 tail -f error.log
 		output appended data as the file grows;
+
+to check the number for directories inside a file..
+ls -lR | grep ^d | wc -l
+
+remove "R" if you dont want to look into subdirectories.
