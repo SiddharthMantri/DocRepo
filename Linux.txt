@@ -83,6 +83,16 @@ eg:
 scp -i abc.pem abcdump.sql ubuntu@<abc.com>:/home/ubuntu/dump
 
 Compressing
+
+ c --create        create a new archive
+ x --extract        extract files from an archive
+ j --bzip2         compression mechanism
+ v --verbose       verbosely list files processed
+ f   use archive file or device ARCHIVE
+ z --gzip
+
+
+
 tar -zcvf {.tgz-file} {files}
 tar -jcvf {.tbz2-file} {files}	
 
@@ -129,3 +139,9 @@ to check the number for directories inside a file..
 ls -lR | grep ^d | wc -l
 
 remove "R" if you dont want to look into subdirectories.
+
+copying files
+cp -a /source/. /dest/
+The -a option is an improved recursive option, that preserve all file attributes, and also preserve symlinks.
+
+The . at end of the source path is a specific cp syntax that allow to copy all files and folders, included hidden ones
