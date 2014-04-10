@@ -19,6 +19,10 @@ Navigation
 cd .. to navigate one level up
 cd <foldername>	to switch to the folder	
 cd / to arrive at the root of the particular drive
+cd ~ to go home folder of the user 
+cd   to go home folder of the user
+cd - to go back to a folder from where you came to the present folder structure
+cd ../.. to navigate backwards upto 2 levels
 
 Files & folders
 ls -all with permissions
@@ -66,7 +70,7 @@ alt + tabnumber = to toggle to a particular tab
 Ctrl+Shift+T = opening a new tab in the terminal(depends on which variant of GNU/LINUX)
 
 Ctrl+<- = to move backward in the command shell
-Ctrl+-> = to move forward in the command shell
+Ctrl+-> = to move forward in the command shells
 Same can be done using alt too.
 
 Alt+b = to move backward in the command shell
