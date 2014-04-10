@@ -60,14 +60,23 @@ Ctrl + D = logs you out
 Ctrl + C = kills the current process
 Ctrl + U = deletes the current line
 Ctrl + L = clears the terminal output
-Ctrl+PageDown = Forward toggle
-Ctrl+PageUp   = Backward toggle
+Ctrl+PageDown = Forward toggle tab
+Ctrl+PageUp   = Backward toggle tab
 alt + tabnumber = to toggle to a particular tab
 Ctrl+Shift+T = opening a new tab in the terminal(depends on which variant of GNU/LINUX)
+
+Ctrl+<- = to move backward in the command shell
+Ctrl+-> = to move forward in the command shell
+Same can be done using alt too.
+
+Alt+b = to move backward in the command shell
+Alt+f = to move forward in the command shell
+
 Ctrl+Shift+v = paste it to terminal
 Ctrl+Shift+c= to copy from terminal
 mouse center click-->copy pasting between the content to and fro form the bash
 clear to clear the bash
+
 
 Ctrl+  H = to toggle hidden file's visibility.
 
