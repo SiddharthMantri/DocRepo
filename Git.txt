@@ -25,9 +25,17 @@ Remove
 git rm <filename>
 
 Branch
+git branch -a
+to list all the branches of the repo including remote ones
 git branch  to know the list of branches
 git branch <branch_name> for creating a new branch
 git checkout <branch_name> to toggle to that branch
 git checkout -b <branchname> to create new branches to create a new branch and checkout it at one go.
 git merge <branch name> navigate to the source branch,to merge changes of this directory to the source branch
 git branch -d <branch_name> to delete the branch
+
+Check out a remote branch locally
+
+git checkout -b <localname> <remotebranch>
+eg:
+git checkout -b experimental origin/experimental

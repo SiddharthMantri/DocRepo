@@ -23,6 +23,7 @@ cd ~ to go home folder of the user
 cd   to go home folder of the user
 cd - to go back to a folder from where you came to the present folder structure
 cd ../.. to navigate backwards upto 2 levels
+. it represents the current working directory
 
 Files & folders
 ls -all with permissions
