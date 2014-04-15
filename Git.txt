@@ -31,8 +31,13 @@ git branch  to know the list of branches
 git branch <branch_name> for creating a new branch
 git checkout <branch_name> to toggle to that branch
 git checkout -b <branchname> to create new branches to create a new branch and checkout it at one go.
-git merge <branch name> navigate to the source branch,to merge changes of this directory to the source branch
 git branch -d <branch_name> to delete the branch
+
+comparing & merging
+git merge <branch name> navigate to the source branch,to merge changes of this directory to the source branch
+
+git diff --name-only <branchA> <branchB>
+It shows the list of files changes between these two branches
 
 Check out a remote branch locally
 
