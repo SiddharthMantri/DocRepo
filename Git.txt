@@ -37,6 +37,9 @@ git push origin --delete <branchName> for deleting remote branch
 comparing & merging
 git merge <branch name> navigate to the source branch,to merge changes of this directory to the source branch
 
+to resolve merging conflict
+git mergetool  to open any of the installed merging tool for resolving conflicts
+
 git diff --name-only <branchA> <branchB>
 It shows the list of files changes between these two branches
 
