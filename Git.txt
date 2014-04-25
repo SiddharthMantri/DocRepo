@@ -48,3 +48,6 @@ Check out a remote branch locally
 git checkout -b <localname> <remotebranch>
 eg:
 git checkout -b experimental origin/experimental
+
+Pull and checkout remote branch
+git fetch && git checkout <branch name>
