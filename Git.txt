@@ -56,3 +56,9 @@ to delete remote branch
 git branch -d <branch name>
 
 git push origin :<branch name>
+
+to get the latest commit for that particular branch
+
+git log -n 1 [branch_name]
+
+branch_name(may be remote or local branch) is optional. Without branch_name it will show the latest commit of current branch.
