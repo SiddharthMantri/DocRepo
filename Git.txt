@@ -62,3 +62,11 @@ to get the latest commit for that particular branch
 git log -n 1 [branch_name]
 
 branch_name(may be remote or local branch) is optional. Without branch_name it will show the latest commit of current branch.
+
+Revert changes of last commit on git
+git revert [hash_of_latest_commit]
+
+Updating forked repo with updates and changes of remote repo
+git remote add upstream [git_link_of_remote_repo]
+git fetch upstream
+git merge upstream/master master
