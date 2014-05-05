@@ -70,3 +70,8 @@ Updating forked repo with updates and changes of remote repo
 git remote add upstream [git_link_of_remote_repo]
 git fetch upstream
 git merge upstream/master master
+
+Rename current branch on git
+git branch -m [old_name] [new_name]
+OR
+git branch -m [new_name]
